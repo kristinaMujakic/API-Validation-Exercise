@@ -14,7 +14,4 @@ db.connect()
     console.error('Error connecting to the database:', error.message);
   });
 
-db.connect();
-
-
 module.exports = db;
